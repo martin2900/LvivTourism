@@ -1,0 +1,1522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#generalContainer {
+    width: 100%;
+   height: 5985px;
+    overflow: hidden;
+
+}
+
+#generalBlock {
+    width: 80%;
+    height: 808px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#block1 {
+    width: 100%;
+    height: 808px;
+    background-image: url(images/lviv/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#menuIcon {
+    width: 20px;
+    height: 12px;
+    background-image: url(images/Menu_Icon.png);
+    background-size: contain;
+}
+
+#sightText {
+    color: white;
+    box-shadow: 7px 8px 104px 52px rgba(0, 0, 0, 0.75);
+}
+
+#headCenter {
+    width: 33%;
+    text-align: center;
+
+}
+
+.menuIcon,
+.head1,
+.headCenter,
+.headRight,
+.headGetApp {
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+.sp1 {
+    margin-left: 20px;
+    background-image: url(fonts/Varela_Round/VarelaRound-Regular.ttf);
+    cursor: pointer;
+    color: white;
+
+}
+
+#contactsExtra:hover {
+    text-decoration-line: underline;
+}
+
+#contactsExtra {
+    text-decoration-line: none;
+    color: white;
+}
+
+#spNew {
+    font-weight: bold;
+}
+
+#getApp {
+    width: 109px;
+    height: 27px;
+    border-radius: 21px;
+    background-color: #267df4;
+    border: 0;
+    outline: 0;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#getApp::before {
+    content: '';
+    width: 21px;
+    height: 20px;
+    background-image: url(images/Apple_Icon.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 2px;
+    left: 7px;
+}
+
+.headGetAppForm {
+    margin-top: 2.7%;
+}
+
+.help {
+    color: #8c8f94;
+}
+
+#artHappens {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#theSight {
+    width: 92%;
+    margin-top: 5%;
+    font-family: Lato;
+    color: #8c8f94;
+}
+
+#h1 {
+    font-family: Varela-Round;
+    font-size: 200%;
+    color: white;
+    box-shadow: 7px 8px 113px 6px rgba(0, 0, 0, 0.75);
+
+}
+
+#watchVideo {
+    margin-top: 5%;
+
+}
+
+#btnVideo {
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #8c8f94;
+    font-weight: bold;
+    background-color: transparent;
+    font-family: Lato;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    color: white;
+
+}
+
+#btnVideo:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#btnVideo::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url(images/Play_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 33px;
+}
+
+#iPhone6s {
+    width: 59%;
+    height: 385px;
+    /*
+    background-image: url(images/iPhone%2061.psb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+    display: none;
+}
+
+#block2 {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/lviv/rebra.jpg);
+    background-size: cover;
+}
+
+#generalBlock2 {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5%;
+}
+
+#key {
+    width: 37%;
+    height: 300px;
+    position: relative;
+    margin-top: 20%;
+    background-image: url(images/lviv/rebra2.jpg);
+    background-size: 100% 100%;
+    color: black;
+    box-shadow: -1px 2px 50px 30px rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.key2 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.key3 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+
+#key::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(images/lviv/ribsNew.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -17%;
+}
+
+#realTime {
+    font-family: Lato;
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 34px;
+    font-weight: bold;
+    margin-top: 5%;
+    color: transparent;
+
+}
+
+#timeText {
+    font-family: Lato;
+    font-size: 85%;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 5%;
+    color: transparent;
+}
+
+#alarmClock {
+    width: 37%;
+    height: 300px;
+    position: relative;
+    margin-top: 20%;
+    background-image: url(images/lviv/rebraMain.jpg);
+    background-size: cover;
+    box-shadow: -1px 2px 50px 30px rgba(0, 0, 0, 0.75);
+
+}
+
+#alarmClock::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(images/lviv/pork-ribs.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -17%;
+}
+
+#obstacles {
+    font-family: Lato;
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 34px;
+    font-weight: bold;
+    margin-top: 5%;
+    color: transparent;
+
+}
+
+#alarmText {
+    font-family: Lato;
+    font-size: 85%;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 5%;
+    color: transparent;
+}
+
+#block3 {
+    width: 100%;
+    height: 480px;
+    margin-top: 5%;
+}
+
+#generalBlock3 {
+    width: 80%;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#iPhone2 {
+    width: 47%;
+    height: 810px;
+    background-image: url(images/lviv/kava.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#day {
+    width: 46%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#h3Day {
+    color: #26272d;
+    font-family: Varela-Round;
+    font-size: 241%;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+#dayText {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 3%;
+}
+
+#hackUs {
+    width: 168px;
+    height: 38px;
+    border-radius: 21px;
+    background-color: #267df4;
+    border: 0;
+    font-family: Lato;
+    color: white;
+    position: relative;
+    outline: 0;
+    cursor: pointer;
+}
+
+#hackUs::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    background-image: url(images/Arrow_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 15px;
+    left: 144px;
+
+}
+
+#more {
+    width: 142px;
+    height: 38px;
+    border-radius: 21px;
+    border: 1px solid #8c8f94;
+    background-color: transparent;
+    font-family: Lato;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+
+}
+
+#block4 {
+    width: 100%;
+    height: 742px;
+
+
+}
+
+#generalBlock4 {
+    width: 80%;
+    height: 564px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5%;
+    padding-top: 5%;
+
+
+
+}
+
+#address1 {
+    width: 47%;
+    height: auto;
+}
+
+#everywhere {
+    color: #26272d;
+    font-family: Varela-Round;
+    font-size: 198%;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+}
+
+#addressText {
+    color: black;
+    font-family: Lato;
+    font-size: 105%;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+
+#partners {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-style: normal;
+
+}
+
+#divPartners {
+    margin-top: 10%;
+}
+
+#dropBox {
+    width: 99px;
+    height: 34px;
+    background-image: url(images/dropbox%202.png.psb);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#evernote {
+    width: 112px;
+    height: 35px;
+    background-image: url(images/evernote.psb);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#partnersElements {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#address2 {
+    width: 67%;
+    height: 400px;
+    border-radius: 50%;
+    background-repeat: repeat-x;
+    background-image: url(images/1cdb6e89fbadf55ccaf5ad1274a56397.jpg);
+
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 5;
+
+}
+
+#address2:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes move {
+
+    100% {
+        background-position: -650px;
+    }
+
+}
+
+#block5 {
+    width: 100%;
+    height: 932px;
+    background-color: #F5F5F8;
+    margin-top: 14%;
+
+
+}
+
+#beautiful {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#interface {
+    color: #26272d;
+    font-family: Varela-Round;
+    font-size: 200%;
+    font-weight: 400;
+    line-height: 52px;
+
+}
+
+#hr {
+    width: 50px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #267df4;
+    margin-top: 7%;
+}
+
+#landing {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 7%;
+}
+
+#panelIphones {
+    width: 100%;
+    height: 699px;
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+#iphone1 {
+    width: 10%;
+    height: 569px;
+
+    background-image: url(images/lviv/winterDad.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 15px 41px 66px rgba(92, 95, 101, 0.28), 3px 9px 16px rgba(61, 61, 62, 0.15);
+}
+
+#iphone2 {
+    width: 25%;
+    height: 569px;
+
+    background-image: url(images/lviv/winter2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: 15px 41px 66px rgba(92, 95, 101, 0.28), 3px 9px 16px rgba(61, 61, 62, 0.15);
+    margin-left: 3%;
+
+}
+
+#iphone3 {
+    width: 25%;
+    height: 602px;
+
+    background-image: url(images/lviv/winter3.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /*     box-shadow: 15px 41px 66px rgba(92, 95, 101, 0.28), 3px 9px 16px rgba(61, 61, 62, 0.15);*/
+    margin-left: 3%;
+
+}
+
+#iphone4 {
+    width: 25%;
+    height: 569px;
+
+    background-image: url(images/lviv/winterHorse.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: 15px 41px 66px rgba(92, 95, 101, 0.28), 3px 9px 16px rgba(61, 61, 62, 0.15);
+    margin-left: 3%;
+}
+
+#block6 {
+    width: 100%;
+    height: 524px;
+    background-color: #F5F5F8;
+}
+
+#email {
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#providenceTitle {
+    opacity: 0.5;
+    color: #3a3d4b;
+    font-family: Lato;
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    font-family: "Lato - Bold";
+    font-weight: 700;
+    letter-spacing: 1.2px;
+
+}
+
+#providence2 {
+    opacity: 0.5;
+    color: #3a3d4b;
+    font-family: Lato;
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    font-family: Lato-Regular;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+#spanProvid {
+    display: flex;
+    flex-direction: row;
+}
+
+#smartphone {
+    color: #3a3d4b;
+    font-family: Varela-Round;
+    font-size: 180%;
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+#divFormMail {
+    width: 502px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 15%;
+}
+
+#inputEmail {
+    width: 502px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    position: absolute;
+    outline: 0;
+    color: #3a3d4b;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#send {
+    width: 164px;
+    height: 39px;
+    border-radius: 21px;
+    background-color: #6fc754;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    left: 332px;
+    top: 6px;
+
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#send::after {
+    content: '';
+    position: absolute;
+    background-image: url(images/strilka.png);
+    width: 14px;
+    height: 12px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 15px;
+    left: 136px;
+}
+
+#download {
+    opacity: 0.3;
+    color: #3a3d4b;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "o, r Downl" */
+    letter-spacing: 1.2px;
+}
+
+#btnLoad {
+    width: 210px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #131315;
+    border: 0;
+    outline: 0;
+    position: relative;
+
+}
+
+
+
+#spanLoadd {
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+#spanLoadd2 {
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: bolder;
+}
+
+#loadStore {
+    font-size: 44px;
+
+    /* Text style for "D, o, w, n" */
+    line-height: 24.84px;
+    /* Text style for "A, p, p," */
+    font-size: 23px;
+    line-height: 22px;
+    margin-top: 5%;
+}
+
+#spanProvid {
+    margin-top: 15%;
+}
+
+#smartphoneDiv {
+    margin-top: 8%;
+    text-align: center;
+}
+
+#downloadDiv {
+    margin-top: 15%;
+}
+
+#block7 {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#stars {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#arrows {
+    width: 80%;
+    height: 100px;
+
+    position: absolute;
+    top: 21%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#strl1 {
+    width: 22px;
+    height: 41px;
+    background-image: url(images/Arroww1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#strl2 {
+    width: 22px;
+    height: 41px;
+    background-image: url(images/Arroww2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#photosPersons {
+    width: 200%;
+    height: 100px;
+    /*    margin-left: 5%;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    left: 0px;
+}
+
+#phot1 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#photElem {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/ninaMatvienko.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phot2 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photElem2 {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/wedding.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phot3 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photElem3 {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/person1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phot4 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photElem4 {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/ninaMatvienko.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phot5 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#photElem5 {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/wedding.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#phot6 {
+    width: 33.3%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photElem6 {
+    width: 134px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(images/lviv/person1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#iconStars {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#starr1 {
+    width: 24px;
+    height: 23px;
+    background-image: url(images/Star_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#starr2 {
+    width: 24px;
+    height: 23px;
+    background-image: url(images/Star_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#starr3 {
+    width: 24px;
+    height: 23px;
+    background-image: url(images/Star_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#starr4 {
+    width: 24px;
+    height: 23px;
+    background-image: url(images/Star_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#starr5 {
+    width: 24px;
+    height: 23px;
+    background-image: url(images/Star_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#uiKit {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+#pKit {
+    color: #26272d;
+    font-family: Lato;
+    font-size: 171%;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+#textKit {
+    text-align: center;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 5%;
+}
+
+#iconStars {
+    margin-top: 5%;
+}
+
+#spanKit {
+    color: #26272d;
+    font-family: Lato;
+    font-size: 80%;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* Text style for "C, ameron" */
+    letter-spacing: 1.2px;
+}
+
+#block8 {
+    width: 100%;
+    height: 900px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F8;
+}
+
+#block8Auto {
+    width: 80%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#pPlan {
+    color: #26272d;
+    font-family: Varela-Round;
+    font-size: 247%;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+#spYou {
+    color: #26272d;
+    font-family: Lato-Regular;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* Text style for "Y, ou are" */
+    letter-spacing: 1.2px;
+}
+
+#wrapYou {
+    margin-top: 11%;
+}
+
+#formIndiv {
+    width: 254px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    margin-top: 3%;
+
+}
+
+#individual {
+    width: 124px;
+    height: 42px;
+    box-shadow: 10px 28px 50px rgba(92, 95, 101, 0.28), 2px 5px 20px rgba(61, 61, 62, 0.15);
+    border-radius: 21px;
+    background-color: #ffffff;
+    border: 0;
+    outline: 0;
+}
+
+#btnCompany {
+    color: lightgray;
+    width: 124px;
+    height: 42px;
+    /*box-shadow: 10px 28px 50px rgba(92, 95, 101, 0.28), 2px 5px 20px rgba(61, 61, 62, 0.15);*/
+    border-radius: 21px;
+    background-color: #F5F5F8;
+    border: 0;
+    outline: 0;
+}
+
+#planText {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 89%;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 18%;
+}
+
+#choosePlan {
+    width: 30%;
+    height: 400px;
+
+}
+
+#team {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 70%;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#letsTalk {
+    color: #267df4;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 78%;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#wrapTeam {
+    margin-top: 7%;
+}
+
+#packets {
+    width: 50%;
+    height: 400px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/hramy.jpg);
+    background-size: 100% 100%;
+    
+}
+
+#pStart {
+    color: #26272d;
+    font-family: Lato;
+    font-size: 169%;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+#btnfree {
+    width: 63px;
+    height: 28px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 55%;
+    outline: 0;
+}
+
+#btnfree:hover {
+    background-color: #8c8f94;
+}
+
+#schedule {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12%;
+}
+
+#events {
+    font-family: Lato-Regular;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 24px;
+    position: relative;
+    margin-top: 10%;
+}
+
+#dropbox {
+    font-family: Lato-Regular;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 24px;
+    position: relative;
+
+}
+
+#events::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background-image: url(images/On_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 7px;
+    left: -20px;
+}
+
+#dropbox::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background-image: url(images/On_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 7px;
+    left: -20px;
+}
+
+#getStarted {
+    width: 212px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #267df4;
+    border: 0;
+    outline: 0;
+    color: white;
+    margin-top: 20%;
+}
+
+#propStart {
+    color: #26272d;
+    font-family: Lato;
+    font-size: 169%;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+#probtnfree {
+    width: 63px;
+    height: 28px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    background-color: #ebebed;
+    font-weight: bold;
+    margin-top: 55%;
+    outline: 0;
+}
+
+#probtnfree:hover {
+    background-color: white;
+}
+
+#proschedule {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 150%;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12%;
+}
+
+#proevents {
+    font-family: Lato-Regular;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 24px;
+    position: relative;
+    margin-top: 3%;
+}
+
+#prodropbox {
+    font-family: Lato-Regular;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 24px;
+    position: relative;
+    margin-top: 3%;
+}
+
+#personal {
+    font-family: Lato-Regular;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 24px;
+    position: relative;
+    margin-top: 3%;
+}
+
+#proevents::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background-image: url(images/On_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 7px;
+    left: -20px;
+}
+
+#prodropbox::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background-image: url(images/On_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 7px;
+    left: -20px;
+}
+
+#personal::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background-image: url(images/On_Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 7px;
+    left: -20px;
+}
+
+#progetStarted {
+    width: 212px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #267df4;
+    border: 0;
+    outline: 0;
+    color: white;
+    margin-top: 10%;
+}
+
+#block9 {
+    width: 100%;
+    height: 300px;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe {
+    width: 50%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#pSubscribe {
+    color: #26292c;
+    font-family: Varela-Round;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 52px;
+    margin-top: -14%;
+}
+
+#typeEmailText {
+    width: 305px;
+    height: 31px;
+    border-radius: 25px;
+    border: 1px solid #ebebed;
+
+    outline: 0;
+    padding-left: 20px;
+    color: #26292c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0px;
+
+}
+
+#btnSubscribe {
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    border-radius: 21px;
+    background-color: #6fc754;
+    left: 217px;
+    top: 4px;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+#formRele {
+    position: relative;
+    margin-top: 4%;
+}
+
+#promise {
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 76%;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 7%;
+}
+
+input {
+    width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tdItem {
+    padding: 10px;
+    cursor: default;
+    border-radius: 7px;
+}
+
+.tdItem:hover {
+    background-color: lightblue;
+}
+
+#tdlApp {
+    width: 30%;
+    position: absolute;
+    z-index: 200;
+    display: none;
+    margin-left: 10%;
+    border-radius: 10%;
+
+}
+
+video {
+    width: 90%;
+    height: 252px;
+}
+
+#aStore {
+    color: white;
+}
+
+#chornovyk {
+    cursor: pointer;
+}
+
+
+
+
+                                   /*Адаптивка*/
+
+
+@media screen and (max-width:768px) {
+    #headRight{
+        margin-left: -8%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
